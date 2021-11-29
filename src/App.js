@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
+
       <IdCard
         lastName="Doe"
         firstName="John"
@@ -20,7 +21,6 @@ function App() {
         birth={new Date('1992-07-14')}
         picture="https://randomuser.me/api/portraits/men/44.jpg"
       />
-
       <IdCard
         lastName="Delores "
         firstName="Obrien"
