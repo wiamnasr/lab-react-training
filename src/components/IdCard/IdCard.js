@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Wrapper, Content } from './IdCard.styles';
 
+import PropTypes from 'prop-types';
+
 const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
   const options = {
     weekday: 'long',
@@ -40,6 +42,14 @@ const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
       </Content>
     </Wrapper>
   );
+};
+
+IdCard.propTypes = {
+  lastName: PropTypes.string,
+  firstName: PropTypes.string,
+  gender: PropTypes.string,
+  height: PropTypes.number,
+  birth: PropTypes.object,
 };
 
 export default IdCard;
