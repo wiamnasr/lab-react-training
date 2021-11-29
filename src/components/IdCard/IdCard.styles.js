@@ -16,7 +16,7 @@ export const Content = styled.ul`
   list-style: none;
 
   h4 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
   }
 
