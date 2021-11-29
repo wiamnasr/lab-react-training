@@ -10,7 +10,8 @@ import Greetings from './components/Greetings/Greetings';
 function App() {
   return (
     <div className="App">
-      <Greetings />
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
       <IdCard
         lastName="Doe"
         firstName="John"
