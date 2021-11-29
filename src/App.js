@@ -9,10 +9,13 @@ import Greetings from './components/Greetings/Greetings';
 import Random from './components/Random/Random';
 import BoxColor from './components/BoxColor/BoxColor';
 import CreditCard from './components/CreditCard/CreditCard';
+import Rating from './components/Rating/Rating';
 
 function App() {
   return (
     <div className="App">
+      <Rating />
+
       <CreditCard
         type="Visa"
         number="0123456789018845"
