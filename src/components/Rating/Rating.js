@@ -9,7 +9,7 @@ const Rating = ({ children }) => {
   const starRating = () => {
     let roundedRating = Math.round(children);
     let ratingSelector = ['☆', '☆', '☆', '☆', '☆'];
-    console.log(roundedRating);
+
     if (roundedRating === 0) {
       return ratingSelector.join(' ');
     } else {
@@ -24,7 +24,7 @@ const Rating = ({ children }) => {
 };
 
 Rating.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.number,
 };
 
 export default Rating;
