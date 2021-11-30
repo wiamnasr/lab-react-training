@@ -9,7 +9,6 @@ import Greetings from './components/Greetings/Greetings';
 import Random from './components/Random/Random';
 import BoxColor from './components/BoxColor/BoxColor';
 import CreditCard from './components/CreditCard/CreditCard';
-import Rating from './components/Rating/Rating';
 import DriverCard from './components/DriverCard/DriverCard';
 
 function App() {
